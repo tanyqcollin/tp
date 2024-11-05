@@ -287,6 +287,7 @@ Action | Format, Examples
 **Delete** | `delete INDEX`<br> e.g., `delete 3`
 **Edit** | `edit INDEX [n/NAME] [g/GENDER] [p/PHONE_NUMBER] [m/MODULE] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee`
 **Find** | `find KEYWORD [MORE_KEYWORDS]`<br> e.g., `find James Jake`
+**Filter** | `filter [n/NAME] [g/GENDER] [p/PHONE_NUMBER] [m/MODULE]… [t/TAG]…` <br> e.g., `filter n/Alex p/123`
 **List** | `list`
 **Help** | `help`
 **Archive** | `archive`
