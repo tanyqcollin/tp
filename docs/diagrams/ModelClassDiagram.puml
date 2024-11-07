@@ -16,9 +16,9 @@ Class UniquePersonList
 Class Person
 Class Name
 Class Phone
+Class Module
 Class Tag
 Class Gender
-Class Module
 
 Class I #FFFFFF
 }
@@ -39,9 +39,10 @@ AddressBook *--> "1" UniquePersonList
 UniquePersonList --> "~* all" Person
 Person *--> Name
 Person *--> Phone
+Person *--> Module
+Person *--> Gender
 Person *--> "*" Tag
 Person *--> Gender
-Person *--> "*" Module
 
 Person -[hidden]up--> I
 UniquePersonList -[hidden]right-> I
