@@ -177,7 +177,8 @@ Examples:
 You can filter students who meet all specified conditions.
 
 Format: `filter [n/NAME] [p/PHONE] [g/GENDER] [t/TAG]… [m/MODULE]…`
-* The filter is case-insensitive. eg `hans` will match `Hans`.
+* The filter is case-insensitive except for gender. eg `hans` will match `Hans`.
+* Gender should be either `male` or `female`, and is case-sensitive.
 * At least one of the optional fields must be provided.
 * Only full words will be matched e.g. `Han` will not match `Hans`, same to all parameter.
 * Filtering by `grade` is not supported.
